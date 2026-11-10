@@ -38,13 +38,19 @@ Most tooling treats LLMs as infallible products. I treat them as high-variance w
 - **[store-console](https://github.com/rudysanchez-mfb/store-console)** — Google Play Console and Apple App Store Connect automation via Playwright over Chrome DevTools Protocol (CDP) on an active profile.
 
 ### 🎬 Verification & PR Cinema
-- **[pr-cinema](https://github.com/rudysanchez-mfb/pr-cinema)** — Assertion-gated PR showreel pipeline: records Playwright takes, burns captions, renders dynamic bookends, and mechanically verifies cuts (`verify-cut.mjs`) before release.
+- **[pr-cinema](https://github.com/rudysanchez-mfb/pr-cinema)** — Assertion-gated PR showreel pipeline: records Playwright takes, burns captions, renders dynamic bookends, and mechanically verifies cuts (`verify-cut.mjs`). *(Includes [🎬 Live Verified Demo Video](https://github.com/rudysanchez-mfb/pr-cinema#demo-in-action))*
 - **[music-video-demo](https://github.com/rudysanchez-mfb/music-video-demo)** — Scores and cuts software takes to music video pacing with beat-synced cards and burned captions; includes `add-demo-track`.
 - **[read-media](https://github.com/rudysanchez-mfb/read-media)** — Multimodal bridge for text-only coding agents: ffmpeg scene-change keyframes + local whisper.cpp speech transcription + vision synthesis.
 
-### ⚡ Operations & Observability
+### ⚡ Agent Consciousness & Observability
+- **[hermes-hud](https://github.com/rudysanchez-mfb/hermes-hud)** — Full-stack browser consciousness monitor & analytics HUD for Hermes Agent. 12 tabs: Executive dashboard, Costs v2, Model Analytics, Sessions & Replay, Gateway Managed Tools, and Plugin hub. *(FastAPI + React/MUI v9, 107 tests)*
 - **[hermes-skills](https://github.com/rudysanchez-mfb/hermes-skills)** — Curated 10-skill Hermes skills tap: `scope-fence`, `plan-gate`, `adversarial-verify`, `ruthless-editor`, `memory-hygiene`, `storage-space-check` (8 unit tests), and core change safety.
-- **[hermes-dashboard](https://github.com/rudysanchez-mfb/hermes-dashboard)** — Web Command Center for monitoring Hermes agent sessions, background daemons, and system status (Express 5 backend + vanilla JS components).
+
+<p align="center">
+  <a href="https://github.com/rudysanchez-mfb/hermes-hud">
+    <img src="https://raw.githubusercontent.com/rudysanchez-mfb/hermes-hud/main/assets/dashboard-executive.png" alt="Hermes HUD Executive Dashboard" width="85%" style="border-radius: 8px;" />
+  </a>
+</p>
 
 ---
 
